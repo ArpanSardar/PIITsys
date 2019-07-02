@@ -1,0 +1,46 @@
+#nav-bar-text {
+  color: #119452;
+  font-family: Avenir-Medium;
+  font-size: 18px;
+  letter-spacing: 0;
+  text-align: right;
+}
+.navbar{
+  box-shadow: 1px 1px 1px rgb(228, 226, 226);
+  padding: .15rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-item a {
+  text-decoration: none;
+  color:  #119452;
+  font-size: 16px;
+  display: block;
+  padding: .5rem 1rem;
+}
+.navbar-light .navbar-nav .nav-item a.active {
+  /* text-decoration: underline; */
+  color:  #119452;
+  font-size: 16px;
+  border-bottom: 2px solid #119452;
+
+}
+.navbar-light .navbar-nav .nav-item.active {
+  /* text-decoration: underline; */
+  color:  #119452;
+  font-size: 16px;
+  border-bottom: 2px solid #119452;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color:  #119452;
+  font-size: 16px;
+  vertical-align: center;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color:  #119452;
+  font-size: 17px;
+  border-bottom: 2px solid  #119452;
+}
+.navbar-brand{
+  margin-left: 1rem;
+}
